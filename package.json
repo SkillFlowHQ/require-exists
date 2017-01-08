@@ -1,7 +1,7 @@
 {
   "name": "require-exists",
-  "version": "0.0.1",
-  "description": "Verifies that each relative require() exists.",
+  "version": "0.0.2",
+  "description": "Verifies that each require() (whether relative-path or package) exists.",
   "bin": {
     "require-exists": "./bin/require-exists.js"
   },
