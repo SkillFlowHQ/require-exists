@@ -1,0 +1,22 @@
+{
+  "name": "require-exists",
+  "version": "0.0.1",
+  "description": "Verifies that each require() (whether relative-path or package) exists.",
+  "bin": {
+    "require-exists": "./bin/require-exists.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkillFlowHQ/require-exists.git"
+  },
+  "author": "Clive Chan @ SkillFlow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SkillFlowHQ/require-exists/issues"
+  },
+  "homepage": "https://github.com/SkillFlowHQ/require-exists#readme"
+}
