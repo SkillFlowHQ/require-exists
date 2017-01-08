@@ -1,8 +1,6 @@
 ![require-exists](https://i.imgur.com/c7nM1s1.gif)
 
-[![Slack](https://try.skillflow.io/badge.svg)](https://skillflow.io/try.html)
-
-# require-exists [![NPM](https://img.shields.io/npm/v/require-exists.svg)](https://npmjs.com/package/require-exists)
+# require-exists [![NPM](https://img.shields.io/npm/v/require-exists.svg)](https://npmjs.com/package/require-exists) [![Slack](https://rauchg-slackin-dupsvvlkiu.now.sh/badge.svg)](https://skillflow.io/try.html)
 
 Verifies that each require() (whether relative-path or package) exists.
 
