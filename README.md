@@ -4,7 +4,7 @@ Verifies that each require() (whether relative-path or package) exists.
 
 ## install and usage
 
-```js
+```sh
 $ npm install -g require-exists
 $ require-exists # in the directory where package.json is
 ```
