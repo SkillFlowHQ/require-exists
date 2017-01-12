@@ -29,7 +29,7 @@ files.forEach(function(file){
     while(match != null){
       let req = match[1]; // won't properly handle wonky things like require(__dirname + '../index');
       if(!builtins.includes(req) && !deps.includes(req) && !installed.includes(req)){
-        if(req.includes('/') || req.includes('\\')){
+        if(req.includes(path.sep)){
           let joined = path.join(path.dirname(file), req);
           let candidates = [joined];
           if(!joined.endsWith('.js'))
